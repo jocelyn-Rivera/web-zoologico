@@ -1,24 +1,42 @@
-
+.cabecera{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.menu{
+	padding: 0px;
+	margin: 0px;
+}
 
 .menu li{
 	list-style: none;
 	display: inline;
+	font-size: 18px;
 }
 .menu li a{
-		padding: 5em;
+		padding: 15px;
+		color: #ffffff;
+		font-weight: bold;
+
+}
+.fondo-menu{
+	background-image: url(img/fondo-menu.png);
+background-size: 100%;
+padding-top: 10px;
 }
 
 .bienvenida h2{
 	text-align: center;
 	font-size: 35px;
-	color: #FE9A2E;
+	color: #cb7307;
 	font-family: "Bauhaus 93";
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .bienvenida p{
 	text-align: center;
 	font-size: 19px;
-	padding-top: 1em;
+	padding-bottom: 1em;
 	font-family: "Monotype Corsiva";
 }
 .banner img{
@@ -29,6 +47,7 @@
 	padding: 8px;
 	text-align: center;
 	color: #ffffff;
+	font-weight: bold;
 }
 
 .celeste{
@@ -36,6 +55,7 @@
 	padding: 8px;
 	text-align: center;
 	color: #ffffff;
+	font-weight: bold;
 }
 
 .beige{
@@ -43,6 +63,7 @@
 	padding: 8px;
 	text-align: center;
 	color: #ffffff;
+	font-weight: bold;
 }
 
 .img{
@@ -51,7 +72,7 @@
 .desde h4{
 	text-align: left;
 	font-size: 35px;
-	color: #FE9A2E;
+	color: #cb7307;
 	font-family: "Bauhaus 93";
 	margin-top: 1em;
 
@@ -60,7 +81,7 @@
 	font-size: 19px;
 	margin-right: 6em; 
 	font-family: "Monotype Corsiva";
-margin-bottom: 2em;
+	margin-bottom: 2em;
 
 }
 .img2{
@@ -71,30 +92,39 @@ margin-bottom: 2em;
 }
 
 .boton{
-	border: 7px solid #FE9A2E;
-	background: #FE9A2E;
-	color: #ffffff;	
-	text-align: right;
-
+	background: #cb7307;
+	color: #fff;
+	
+	padding: 8px;
+	float: right;
 }
 
-footer{
+.fondo-footer{
 	background-image: url(img/fondopi.png);
 	background-size: 100%;
+	padding-top: 150px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+}
 
+.fondo-footer ul{
+list-style: none;
+padding:0px;
+margin: 0px;
+font-family: "Arial";
 }
-.titulo-pie{
-	margin-top: 7em;
-	text-align: center;
-	color:  #FE9A2E;
+.fondo-footer ul li a{
+color: #000;
+font-family: "Arial";
+}
+.titulo-footer{
+	color: #cb7307;
 	font-size: 20px;
-	font-family: "Arial Black";
+	font-weight: bold;
+font-family: "Arial";
 }
-.lista-dere li{
-	list-style: none;
-	margin-left: 8.5em; 
-	
-}
-.lista-dere a{
-	color:#000000;
+.texto-derecha{
+	text-align: right;
+	font-family: "Arial";
 }
