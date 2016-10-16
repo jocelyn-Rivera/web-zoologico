@@ -1,130 +1,64 @@
-.cabecera{
-	padding-top: 20px;
-	padding-bottom: 10px;
+.fondo-menu{
+	background-image: url(img/fondo-menu.png);
+	background-size: 100%;
 }
 .menu{
 	padding: 0px;
 	margin: 0px;
+	text-align: center;
 }
-
 .menu li{
 	list-style: none;
 	display: inline;
-	font-size: 18px;
 }
-.menu li a{
-		padding: 15px;
-		color: #ffffff;
-		font-weight: bold;
-
+.menu a{
+	color: #fff;
+	margin: 2em;
+	
+	font-size: 19px;
+	margin-top: 15px;
 }
-.fondo-menu{
-	background-image: url(img/fondo-menu.png);
-background-size: 100%;
-padding-top: 10px;
+.contenido img{
+	width: 100%;
 }
-
 .bienvenida h2{
+	color: #0B610B;
 	text-align: center;
-	font-size: 35px;
-	color: #cb7307;
-	font-family: "Bauhaus 93";
-	padding-top: 30px;
-	padding-bottom: 30px;
+	font-family: "Baskerville Old Face";
+	font-weight: bold;
+	margin-top: 2em;
+	font-size: 25px;
 }
-
 .bienvenida p{
 	text-align: center;
-	font-size: 19px;
-	padding-bottom: 1em;
+	font-size: 18px;
 	font-family: "Monotype Corsiva";
-}
-.banner img{
-	width: 100%;
+	margin-left: 2em;
 }
 .verde{
-	background: green; 
-	padding: 8px;
-	text-align: center;
-	color: #ffffff;
-	font-weight: bold;
-}
-
-.celeste{
-	background: #01A9DB; 
-	padding: 8px;
-	text-align: center;
-	color: #ffffff;
-	font-weight: bold;
-}
-
-.beige{
-	background:#DF7401; 
-	padding: 8px;
-	text-align: center;
-	color: #ffffff;
-	font-weight: bold;
-}
-
-.img{
-	width: 100%;
-}
-.desde h4{
-	text-align: left;
-	font-size: 35px;
-	color: #cb7307;
-	font-family: "Bauhaus 93";
-	margin-top: 1em;
-
-}
-.desde p{
-	font-size: 19px;
-	margin-right: 6em; 
-	font-family: "Monotype Corsiva";
-	margin-bottom: 2em;
-
-}
-.img2{
-	width: 100%;
-	margin-top: 2em;
-	border: 2px solid #BDBDBD;
-	padding: 1em; 
-}
-
-.boton{
-	background: #cb7307;
+	background:#04B404;
 	color: #fff;
-	
-	padding: 8px;
-	float: right;
+	text-align: center;
+	padding: 10px; 
 }
-
-.fondo-footer{
-	background-image: url(img/fondopi.png);
-	background-size: 100%;
-	padding-top: 150px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 30px;
+.verde img{
+	width: 100%;
 }
-
-.fondo-footer ul{
-list-style: none;
-padding:0px;
-margin: 0px;
-font-family: "Arial";
+.celeste{
+	background:#00BFFF;
+	color: #fff;
+	text-align: center;
+	padding: 10px; 
 }
-.fondo-footer ul li a{
-color: #000;
-font-family: "Arial";
+.celeste img{
+	width: 100%;
 }
-.titulo-footer{
-	color: #cb7307;
-	font-size: 20px;
-	font-weight: bold;
-font-family: "Arial";
+.beige{
+	background:#DBA901 ;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
 }
-.texto-derecha{
-	text-align: right;
-	font-family: "Arial";
+.beige img{
+	width: 100%;
 }
